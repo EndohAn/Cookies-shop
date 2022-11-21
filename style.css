@@ -1,0 +1,128 @@
+body{
+   /* background-color:#993400;  */
+}
+:root{
+    --color1:;
+    --color2:;
+    --color3:;
+}
+footer,section{
+    padding: 80px 0px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: brown !important;
+}
+.logo-inscription{
+    font-size: 28px;
+    text-align: center;
+}
+/* .nav-img{
+    width: 100%;
+} */
+
+.info{
+   margin-top: 20px; 
+}
+.info-text{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(img/left.png);
+}
+.carousel-control-next-icon{
+    background-image: url( img/rigth.png);
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: 20px;
+}
+.carousel-control-prev{
+    left: -35px;
+}
+.carousel-control-next{
+    right: -35px;
+}
+.hit-content{
+    display: flex;
+    justify-content: center;
+
+}
+.inner-container{
+    height: 50vh;
+    background-image:url(img/wallpapper.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #f5e296; */
+    /* filter: saturate(0.3); */
+    /* filter: contrast(0.5); */
+}
+.but{
+    width:120px;
+    height: 40px;
+    color:#864c5d ;
+    background-color:#efb9c8 ;
+    text-transform: uppercase;
+    border: 1px solid rgb(243, 94, 119);
+    box-shadow: inset 0 0 0 0 #864c5d;
+    transition: ease-out 0.3s;
+}
+.but:hover{
+    box-shadow: inset 120px 0 0 0 #864c5d;
+    color: #fff;
+}
+.text{
+    color: #864c5d;
+    font-weight: bold;
+}
+.subtext{
+    color: #864c5d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lead_text{
+    color: #864c5d;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #410215;
+}
+
+.header-adress::before{
+    position: absolute;
+    content: '';
+    background: url(img/location.png) no-repeat;
+    width: 25px;
+    height: 30px;
+    left: 250px;
+    top: 31px;
+}
+.header-telephone::before{
+    position: absolute;
+    content: '';
+    background: url(img/phone-call.png) no-repeat;
+    width: 33px;
+    height: 33px;
+    left: 252px;
+    top: 58px;
+}
+
+
+
+
+
+
+@media all and (max-width:520px){
+.btn{
+margin-top: 50px;
+margin-left: 80px;
+}
+
+}
